@@ -25,10 +25,10 @@ public:
         y1=2;
         y2=4;
     }
-  //  Rectangle(const Rectangle &obj)
-   // {
-   //     cout<<"Constructor Copy"<<endl;
-   // }
+    Rectangle(const Rectangle &obj)
+    {
+        cout<<"Constructor Copy"<<endl;
+    }
     void input();
     void output();
     void perimetr();
